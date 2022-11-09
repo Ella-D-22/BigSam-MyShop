@@ -1,0 +1,45 @@
+.body {
+    width: calc(100% - 5rem);
+    height: 100vh;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    z-index: 0;
+    position: relative !important;
+    top: 200 !important;
+    margin-top: 100px !important;
+    transition: all .5s ease;
+    padding: 3rem;
+}
+
+.body-trimmed {
+    width: calc(100% - 16.5625rem);
+    margin-left: 16.5625rem;
+}
+
+.body-md-screen {
+    width: calc(100% - 5rem);
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.container-fluid {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+span {
+    color: maroon;
+}
+
+p {
+    font: 2em sans-serif;
+    font-weight: lighter;
+}
