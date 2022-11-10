@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pages.component.scss']
 })
 export class PagesComponent implements OnInit {
+  isActive:boolean=false;
 
+  onClick(){
+    this.isActive = !this.isActive
+  }
+  
   constructor() { }
 
   ngOnInit(): void {

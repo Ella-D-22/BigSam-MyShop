@@ -1,0 +1,32 @@
+.page {
+    box-shadow: 10px 15px 15px 15px lightgray;
+    width: 15;
+    height: 8;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.icons {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 24px
+}
+
+span {
+    color: palevioletred;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font: 1em italic;
+}
+
+.fab:hover {
+    background-color: aliceblue;
+}

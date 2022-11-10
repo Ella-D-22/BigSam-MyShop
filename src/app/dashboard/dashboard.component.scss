@@ -1,6 +1,5 @@
     .card-1,
-    .card-2,
-    .card-3 {
+    .card-2 {
         height: auto;
         max-width: 25rem;
         width: 65rem;
@@ -8,6 +7,12 @@
         margin-right: 5px;
         margin-left: 4px;
         background-color: maroon;
+        box-shadow: 10px 15px 15px 15px lightgray
+    }
+    
+    .img {
+        background-repeat: no-repeat;
+        box-shadow: 200px 250px 250px 200px lightgray
     }
     
     .card-title {
@@ -16,6 +21,7 @@
         font-style: oblique;
         width: 65vw;
         color: aliceblue;
+        box-shadow: 10px 15px 15px 15px lightgray
     }
     
     .card-text {
@@ -27,6 +33,7 @@
         padding-bottom: 20px;
         width: 65vw;
         margin-top: -2px;
+        box-shadow: 10px 15px 15px 15px lightgray
     }
     
     span {
